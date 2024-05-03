@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.heyeriic</groupId>
-	<artifactId>soservice</artifactId>
+	<artifactId>orderofserviceapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>soservice</name>
+	<name>serviceability</name>
 	<description>Service order system</description>
 	<properties>
 		<java.version>17</java.version>
