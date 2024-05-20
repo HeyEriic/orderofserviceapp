@@ -2,7 +2,7 @@ package com.heyeriic.orderofserviceapp.domain.client;
 
 import com.heyeriic.orderofserviceapp.domain.client.payload.request.CreateClientRequest;
 import com.heyeriic.orderofserviceapp.domain.client.payload.response.ClientResponse;
-import com.heyeriic.orderofserviceapp.domain.config.error.CustomException;
+import com.heyeriic.orderofserviceapp.config.error.CustomException;
 import org.springframework.beans.BeanUtils;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
