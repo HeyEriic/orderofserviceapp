@@ -1,4 +1,4 @@
-package com.heyeriic.orderofserviceapp.domain.config.error;
+package com.heyeriic.orderofserviceapp.config.error;
 
 public class ErrorResponse {
     private int status;

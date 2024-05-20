@@ -1,4 +1,4 @@
-package com.heyeriic.orderofserviceapp.domain.config.error;
+package com.heyeriic.orderofserviceapp.config.error;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
