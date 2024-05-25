@@ -33,4 +33,9 @@ public class ClientController {
         ClientResponse clientResponse = clientService.findById(id);
         return ResponseEntity.status(HttpStatus.OK).body(clientResponse);
     }
+
+    @PostMapping("/update/{id}")
+    public ResponseEntity<ClientResponse> update(@PathVariable Long id, @RequestBody CreateClientRequest clientRequest) {
+        return ResponseEntity.status(HttpStatus.OK).body(clientService.update(id, clientRequest));
+    }
 }
